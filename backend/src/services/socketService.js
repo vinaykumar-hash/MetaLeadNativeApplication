@@ -1,9 +1,3 @@
-/**
- * Socket.IO service — thin wrapper that holds the io instance
- * and provides a single function to broadcast a new lead to
- * every connected React Native client.
- */
-
 let io = null;
 
 function init(socketIoInstance) {
