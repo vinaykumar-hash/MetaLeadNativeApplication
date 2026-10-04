@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Metro bundler
+.metro-health-check*
+
+# Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/app/release/
+*.apk
+*.aab
+
+# Local properties (contains SDK path specific to your machine)
+android/local.properties
+
+# Logs
+*.log
+
+# Buck
+.buckd/
+buck-out/
+
+# iOS (if you ever add it)
+ios/Pods/
+ios/build/
